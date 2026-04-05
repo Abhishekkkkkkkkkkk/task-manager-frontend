@@ -503,4 +503,4 @@ npm run lint       # Run ESLint to check for code issues
 | `flex-shrink-0` Tailwind warning | Replace with `shrink-0` — both work, `shrink-0` is the modern name |
 | Modal animation not working | Run `npm install tailwindcss-animate` and add plugin to `tailwind.config.ts` |
 | Mobile can't reach backend | Use PC local IP (e.g. `192.168.1.5:4000`) not `localhost:4000` |
-| Build fails on Vercel | Run `npm run build` locally first to catch TypeScript errors |
+| Build fails on Vercel | Run `npm run build` locally first to catch TypeScript errors |!
