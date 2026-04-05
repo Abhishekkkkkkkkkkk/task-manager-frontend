@@ -7,7 +7,7 @@ import { Task } from '@/types';
 interface TaskModalProps {
   open: boolean;
   onClose: () => void;
-  task?: Task;                               // if provided → edit mode, else → create mode
+  task?: Task; // if provided → edit mode, else → create mode
   onSubmit: (data: Partial<Task>) => Promise<void>;
 }
 
